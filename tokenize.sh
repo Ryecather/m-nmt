@@ -4,8 +4,8 @@
 MODEL_PATH=data/x_langs.txt-sp-48000.model
 
 # 指定输入和输出目录
-INPUT_DIR=data/x_data
-OUTPUT_DIR=x_tokenized
+INPUT_DIR=small_data
+OUTPUT_DIR=tokenized_data
 
 # 创建输出目录
 mkdir -p $OUTPUT_DIR
